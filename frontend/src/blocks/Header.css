@@ -1,0 +1,16 @@
+.header {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.header__logo {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 1.5rem;
+  color: rgb(8, 37, 164);
+  text-decoration: none;
+}
+
+.header__logo-container {
+  text-decoration: none;
+}

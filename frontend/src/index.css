@@ -1,0 +1,14 @@
+@import url('./vendor/normalize.css');
+
+@import url('./blocks/Body.css');
+@import url('./blocks/Popup.css');
+@import url('./blocks/Header.css');
+@import url('./blocks/Nav.css');
+@import url('./blocks/EmployeesList.css');
+@import url('./blocks/Tasks.css');
+@import url('./blocks/Reports.css');
+@import url('./blocks/EmployeeSinglePage.css');
+@import url('./blocks/Form.css');
+@import url('./blocks/Loader.css');
+@import url('./blocks/AuthStatusPopups.css');
+@import url('./blocks/Auth.css');

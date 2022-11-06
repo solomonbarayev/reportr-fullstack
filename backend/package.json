@@ -1,0 +1,37 @@
+{
+    "name": "home-assingment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/server.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node build/server.js",
+        "build": "rm -rf build/ && npx tsc",
+        "dev": "nodemon ./src/server.ts"
+    },
+    "author": "Solomon Barayev",
+    "license": "ISC",
+    "dependencies": {
+        "@types/mongoose": "^5.11.97",
+        "bcryptjs": "^2.4.3",
+        "celebrate": "^15.0.1",
+        "chalk": "^4.1.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.17.1",
+        "express-rate-limit": "^6.6.0",
+        "express-rate-limiter": "^1.3.1",
+        "express-winston": "^4.2.0",
+        "helmet": "^6.0.0",
+        "joi": "^17.6.4",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.7.0",
+        "ts-node": "^10.9.1",
+        "validator": "^13.7.0",
+        "winston": "^3.8.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.14",
+        "typescript": "^4.8.4"
+    }
+}

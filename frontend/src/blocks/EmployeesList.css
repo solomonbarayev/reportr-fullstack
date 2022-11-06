@@ -1,0 +1,117 @@
+.employees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employees__title {
+  font-size: 1.6rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 30px;
+}
+
+.employees__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px auto;
+  list-style: none;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  max-width: 400px;
+  width: 100%;
+  margin: 30px auto;
+}
+
+.employees__list-item {
+  border: 1px solid rgb(185, 185, 185);
+  padding: 12px;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.employees__list-item:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.employees__list-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.employees__list-item-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.employees__list-item-image {
+  border-radius: 50%;
+  margin-right: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 50px;
+  max-width: 50px;
+  width: 100%;
+  height: 50px;
+}
+
+.employees__text {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  font-size: 16px;
+}
+
+.employees__text_bold {
+  font-weight: 600;
+}
+
+.employees__view-btn-link {
+  text-decoration: none;
+}
+
+.employees__view-btn {
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.employees__view-icon {
+  font-size: 1.5rem;
+  color: rgb(185, 185, 185);
+  transition: color 0.3s ease-in-out;
+}
+
+.employees__view-btn:hover .employees__view-icon {
+  color: rgb(8, 37, 164);
+}
+
+.employees__view-btn-text {
+  font-size: 0.8rem;
+  color: rgb(8, 37, 164);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 420px) {
+  .employees {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .employees__list-item-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
